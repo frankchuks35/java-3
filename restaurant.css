@@ -1,0 +1,126 @@
+body{
+    background-image: url(./images/Restaurant\ image2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-lg{
+    background-color: rgb(160, 228, 228);
+    border-radius: 5px;
+}
+
+.menu-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.filter-btn{
+    border: 2px solid rgba(243, 180, 64, 0.856);
+    border-radius: 7px;
+    background-color: transparent;
+    color: rgba(243, 180, 64, 0.856);
+}
+
+.filter-btn:hover{
+    background-color: rgba(245, 207, 137, 0.856);
+    color: rgb(58, 54, 54);
+}
+
+.img-check{
+    width: 150px;
+}
+
+.img-check img{
+    width: 100%;
+    border: 2px solid rgba(243, 180, 64, 0.856);
+    border-radius: 8px;
+}
+
+.write-up{
+    margin-top: -3px;
+    gap: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.write-up h4{
+    font-size: 16px;
+    /* letter-spacing: 1px; */
+    font-weight: bolder;
+}
+
+.first-h4{
+    width: 90%;
+    text-align: start;
+    flex: 1;
+
+}
+
+.color-shade{
+    color: rgba(243, 180, 64, 0.856);
+}
+
+.StyleFor-P{
+    font-size: 14px;
+    text-align: start;
+    color: rgb(66, 62, 62);
+    font-weight: lighter;
+}
+
+
+
+
+
+
+/* Responsiveness starts here */
+@media screen and (max-width: 1100px) {
+    .write-up{
+        gap: 10px;
+    }
+    
+    .write-up h4{
+        font-size: 15px;
+    }
+
+    .StyleFor-P{
+        font-size: 12px; 
+    }
+}
+
+
+@media (max-width: 980px){
+    .write-up{
+        gap: 2px;
+        margin-top: 5px;
+    }
+    
+    .write-up h4{
+        font-size: 13px;
+        font-weight: bolder;
+    }
+
+    .first-h4{
+        color: dimgrey;
+    }
+
+    .color-shade{
+        font-size: 50px;
+    }
+    
+
+    .filter-btn{
+        padding: 5px 3px;
+    }
+
+    .StyleFor-P{
+        font-size: 12px; 
+        font-weight: bold;
+    }
+}
+
+
+
+
+
